@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.animate-spin-slow {
+  animation: spin, 30s, infinite;
+  border-bottom: 4px, white;
+}
+@keyframes spin {
+  from {
+    transform: 0;
+  }
+  to {
+    transform: 360;
+  }
+}
