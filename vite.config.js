@@ -1,7 +1,6 @@
+// vite.config.js
 import { defineConfig } from "vite";
-import ghPages from "vite-plugin-gh-pages";
 
 export default defineConfig({
-  plugins: [ghPages()],
-  base: "/Bhojan/",
+  base: "/Bhojan/", // Set the base path for GitHub Pages
 });
